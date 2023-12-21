@@ -4,6 +4,8 @@
   "description": "This is Namaste React by Sumit kumar",
   
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Sumit kumar",
