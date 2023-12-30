@@ -18,12 +18,12 @@ const RestaurantMenu = () => {
   console.log(itemCards);
 
   return (
-    <div className="menu">
+    <div className="menu bg-yellow-100">
       <h1>{name}</h1>
       <p>
         {cuisines.join(", ")} - {costForTwoMessage}
       </p>
-      <h2>Menu</h2>
+      <h2 className="font-bold p-4 text-xl">Menu</h2>
       <ul>
         {itemCards.map((item) => (
           <li key={item.card.info.id}>
